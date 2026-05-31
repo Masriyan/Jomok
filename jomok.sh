@@ -1,5 +1,5 @@
 #!/bin/bash
-# jomok.sh - sudo3rs - V17 GOD MODE - research only
+# jomok.sh - sudo3rs - research only
 trap "" SIGINT SIGTERM SIGHUP
 export ORIG_PATH="${ORIG_PATH:-$(readlink -f "$0")}"
 export SELF_PATH=$(readlink -f "$0")
