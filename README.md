@@ -45,6 +45,14 @@ For an in-depth look into the mechanics, impact, and real-world scenarios, pleas
 
 ---
 
+## 📁 Repository Structure
+
+The payloads have been categorized into two distinct directories for ease of research and analysis:
+- **`Jomok Encrypted/`**: Contains the highly obfuscated, production-ready payloads (`jomok.sh`, `jomok.bat`, `jomok.ps1`) with in-memory XOR decryption and base64 encoded logic.
+- **`Jomok Non Encrypt/`**: Contains the original, plaintext source code (`original_non_encrypt_jomok.sh`, etc.) for easier analysis and understanding without having to bypass the obfuscation layers.
+
+---
+
 ## 🛠 Installation & Usage
 
 Clone the repository:
@@ -55,12 +63,13 @@ cd Jomok
 
 ### Running `jomok.sh` (Linux/macOS)
 ```bash
+cd "Jomok Encrypted"
 chmod +x jomok.sh
 ./jomok.sh
 ```
 
 ### Running Windows Payloads
-For `jomok.bat` or `jomok.ps1`, run them directly from the Windows Command Prompt or PowerShell. Ensure you have the appropriate execution policies enabled for PowerShell.
+Navigate to the desired folder (e.g., `cd "Jomok Encrypted"`). For `jomok.bat` or `jomok.ps1`, run them directly from the Windows Command Prompt or PowerShell. Ensure you have the appropriate execution policies enabled for PowerShell.
 
 ## 🤝 Contributing
 Contributions are welcome. Please open an issue or submit a pull request on the [GitHub repository](https://github.com/Masriyan/Jomok).
