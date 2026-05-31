@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Jomok Banner" width="100%">
+  <img src="./assets/banner.png" alt="Jomok Banner" width="100%">
   <h1>Jomok Payload V17.2 - GOD MODE HARDENED</h1>
   <p><b>Advanced, cross-platform, obfuscated payload toolkit for authorized research and educational purposes.</b></p>
 </div>
@@ -7,13 +7,15 @@
 ## ⚠️ Disclaimer
 **This project is for educational and authorized research purposes only.** Do not use these scripts on systems you do not own or have explicit permission to test. The author is not responsible for any misuse or damage caused by this toolkit.
 
+> **🤖 AI Generation Note:** The sophisticated techniques and code structure within this toolkit were generated using **Claude AI Opus 4.8** to demonstrate the capabilities of advanced LLMs in generating complex, cross-platform security research tools.
+
 ---
 
 ## 📸 Previews
 
 <div align="center">
-  <img src="assets/img1.png" alt="Preview 1" width="48%">
-  <img src="assets/img2.png" alt="Preview 2" width="48%">
+  <img src="./assets/img1.png" alt="Preview 1" width="48%">
+  <img src="./assets/img2.png" alt="Preview 2" width="48%">
 </div>
 
 ---
