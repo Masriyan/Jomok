@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./assets/banner.png" alt="Jomok Banner" width="100%">
-  <h1>Jomok Payload V17.2 - GOD MODE HARDENED</h1>
+  <h1>Jomok Payload V17.2 </h1>
   <p><b>Advanced, cross-platform, obfuscated payload toolkit for authorized research and educational purposes.</b></p>
 </div>
 
